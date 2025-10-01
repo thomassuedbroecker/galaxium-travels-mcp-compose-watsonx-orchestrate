@@ -48,6 +48,8 @@ export WATSONX_SPACE_ID=<YOUR_SPACE_ID>
 
 ### Step 3: Start the watsonx Orchestrate Developer Edition
 
+>Ensure the `Galaxium Container` are not running.
+
 ```sh
 cd watsonx-orchestrate-adk
 orchestrate server start --env-file .env
