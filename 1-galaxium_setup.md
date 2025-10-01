@@ -8,7 +8,7 @@
 
 ```sh
 cd example-application-infrastructure
-git clone https://github.com/thomassuedbroecker/galaxium-travels-infrastructure
+git clone https://github.com/thomassuedbroecker/galaxium-travels-infrastructure.git
 ```
 
 ### Step 3: Generate environment variables file
