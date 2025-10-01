@@ -1,14 +1,18 @@
 # Set up the example `Galaxium Travels Infrastructure`
 
+>We will work with the `cloned repository` in the folder `example-application-infrastructure`.
+
 ### Step 1: Open the first terminal session.
 
 ### Step 2: Clone the GitHub repository
+
 ```sh
 cd example-application-infrastructure
 git clone https://github.com/thomassuedbroecker/galaxium-travels-infrastructure
 ```
 
 ### Step 3: Generate environment variables file
+
 ```sh
 cd galaxium-travels-infrastructure/booking_system_rest
 cat .env-template > .env
