@@ -44,6 +44,9 @@ export WO_ENTITLEMENT_KEY=<YOUR_ENTITLEMENT_KEY>
 # IBM API KEY
 export WATSONX_APIKEY=<YOUR_WATSONX_API_KEY>
 export WATSONX_SPACE_ID=<YOUR_SPACE_ID>
+# Optional configuration
+#export WATSONX_REGION=us-south
+#export WATSONX_URL=https://${WATSONX_REGION}.ml.cloud.ibm.com
 ```
 
 ### Step 3: Start the watsonx Orchestrate Developer Edition
