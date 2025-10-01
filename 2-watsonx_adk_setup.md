@@ -33,6 +33,9 @@ cat .env_template > .env
 
 Configuration for local usage and watsonx.ai.
 
+>To get the relevant information for the local configuration with IBM Cloud and watsonx.ai, please visit the blog post [Getting Started with Local AI Agents in the watsonx Orchestrate Development Edition](https://suedbroecker.net/2025/06/25/getting-started-with-local-ai-agents-in-the-watsonx-orchestrate-developer-edition/) or the [IBM watsonx Orchestrate ADK documentation](https://developer.watson-orchestrate.ibm.com/getting_started/installing#ibm-cloud).
+
+
 ```sh
 # Developer
 export WO_DEVELOPER_EDITION_SOURCE=myibm
