@@ -24,6 +24,36 @@ This repository contains resources for the "galaxium_travels_mcp-compose-watsonx
 
 ## The steps in the related [YouTube video: TBD](XXX).
 
+#### 0. Clone this repository to your local machine
+
+This is to ensure you use the same folder structure as defined in the following documentation.
+
+```sh
+git clone https://github.com/thomassuedbroecker/galaxium-travels-mcp-compose-watsonx-orchestrate.git
+```
+
+* Inspect the folder structure:
+
+```sh
+tree .
+.
+├── 1-galaxium_setup.md
+├── 2-watsonx_adk_setup.md
+├── 3-connect-to-the-mcp-server-with-mcp-inspector.md
+├── 4-connect-to-the-mcp-server.md
+├── example-application-infrastructure
+│   └── README.md
+├── images
+│   ├── connect-to-mcp-locally-01.jpg
+│   ├── connect-to-mcp-locally-02.jpg
+│   ├── connect-to-mcp-locally-03.jpg
+│   └── mcp-server-overview-01.png
+├── LICENSE
+├── README.md
+└── watsonx-orchestrate-adk
+    └── README.md
+```
+
 #### 1. Start your container engine
 
 Ensure your container engine is running on your desktop.
