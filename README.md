@@ -41,6 +41,10 @@ Ensure your container engine is running on your desktop.
 * **The Galaxium Travels Example**   
     * [Galaxium Travels Infrastructure](https://github.com/thomassuedbroecker/galaxium-travels-infrastructure)
     * [Galaxium Travels Idea](https://github.com/Max-Jesch/galaxium-travels)
+    * [Galaxium Travels Embedded Webchat Example](https://github.com/thomassuedbroecker/galaxium_travels_embedded_webchat_example)
+    * [Galaxium Travels Evaluation Example](https://github.com/thomassuedbroecker/galaxium_travels_evaluation_example)
+    * [Galaxim Travels Knowledge Graph RAG example](https://github.com/thomassuedbroecker/galaxium-travels-graph-rag-watsonx-ai-example)
+
 
 * **Blog posts**
 
