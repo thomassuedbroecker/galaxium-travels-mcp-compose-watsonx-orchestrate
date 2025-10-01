@@ -22,7 +22,7 @@ This repository contains resources for the "galaxium_travels_mcp-compose-watsonx
 * Related resources:
 
 
-## The steps in the related [YouTube video: TBD](XXX).
+## The steps in the related [YouTube video: Galaxium + MCP + watsonx Orchestrate: Full Local Setup Guide](https://www.youtube.com/watch?v=LRIAkzVrIvc).
 
 #### 0. Clone this repository to your local machine
 
