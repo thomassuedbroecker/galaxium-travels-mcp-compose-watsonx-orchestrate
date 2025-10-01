@@ -102,5 +102,9 @@ source ./.venv/bin/activate
 orchestrate chat start
 ```
 
+You can verify that the tool is imported in the UI.
+
+![](/images/connect-to-mcp-locally-03.jpg)
+
 ### [Home](https://github.com/thomassuedbroecker/draft-galaxium-travels-mcp-compose-watsonx-orchestrate/blob/main/README.md)
 
