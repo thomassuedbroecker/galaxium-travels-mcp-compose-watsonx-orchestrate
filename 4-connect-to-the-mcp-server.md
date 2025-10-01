@@ -21,14 +21,6 @@ orchestrate chat start
 
 ### Step 3: Create connections
 
-* MCP Gateway
-
-```sh
-export APP_ID="galaxium-mcpgateway"
-orchestrate connections remove --app-id ${APP_ID}
-orchestrate connections add --app-id ${APP_ID}
-```
-
 * MCP remote server
 
 ```sh
