@@ -1,4 +1,4 @@
-# Connect to the MCP Server and MCP Gateway
+# Connect to the MCP Server
 
 ### Step 1: Activate the local environment
 
