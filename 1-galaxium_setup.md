@@ -33,4 +33,4 @@ Stop all applications; we only need to build and create the container images to 
 
 >Press 'command' and 'C' in the terminal session.
 
-### [Home](https://github.com/thomassuedbroecker/draft-galaxium-travels-mcp-compose-watsonx-orchestrate/blob/main/README.md)
+### [Home](https://github.com/thomassuedbroecker/galaxium-travels-mcp-compose-watsonx-orchestrate/blob/main/README.md)

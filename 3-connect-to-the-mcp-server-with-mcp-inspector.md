@@ -36,4 +36,4 @@ orchestrate chat start
 orchestrate server logs
 ```
 
-### [Home](https://github.com/thomassuedbroecker/draft-galaxium-travels-mcp-compose-watsonx-orchestrate/blob/main/README.md)
+### [Home](https://github.com/thomassuedbroecker/galaxium-travels-mcp-compose-watsonx-orchestrate/blob/main/README.md)

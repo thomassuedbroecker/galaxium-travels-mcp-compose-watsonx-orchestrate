@@ -153,4 +153,4 @@ export DOCKER_COMPOSE_FILE=docker-compose.yml
 orchestrate server start -e ${SERVER_ENVIRONMENT} -f ${DOCKER_COMPOSE_FILE}  --with-langfuse
 ```
 
-### [Home](https://github.com/thomassuedbroecker/draft-galaxium-travels-mcp-compose-watsonx-orchestrate/blob/main/README.md)
+### [Home](https://github.com/thomassuedbroecker/galaxium-travels-mcp-compose-watsonx-orchestrate/blob/main/README.md)
