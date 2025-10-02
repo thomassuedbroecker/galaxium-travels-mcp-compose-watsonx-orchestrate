@@ -30,6 +30,7 @@ This is to ensure you use the same folder structure as defined in the following 
 
 ```sh
 git clone https://github.com/thomassuedbroecker/galaxium-travels-mcp-compose-watsonx-orchestrate.git
+cd galaxium-travels-mcp-compose-watsonx-orchestrate
 ```
 
 * Inspect the folder structure:
