@@ -4,7 +4,7 @@ This repository demonstrates how to set up a `MCP server` locally and integrate 
 
 * **MCP Server**
 
-![](/images/mcp-server-overview-01.png)
+![](images/mcp-server-overview-01.png)
 
 This repository contains resources for the "galaxium_travels_mcp-compose-watsonx-orchestrate" project, utilizing the `watsonx Orchestrate Development Edition`.
 
