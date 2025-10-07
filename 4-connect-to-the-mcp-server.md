@@ -29,9 +29,6 @@ orchestrate connections add --app-id ${APP_ID}
 
 ### Stet 4: Configure the watsonx Orchestrate  _MCP remote server_ connection
 
-
-* MCP remote server
-
 ```sh
 cd watsonx-orchestrate-adk
 source ./.venv/bin/activate
