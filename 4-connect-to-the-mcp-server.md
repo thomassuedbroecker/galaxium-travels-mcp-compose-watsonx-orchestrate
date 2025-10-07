@@ -19,9 +19,7 @@ source ./.venv/bin/activate
 orchestrate chat start 
 ```
 
-### Step 3: Create connections
-
-* MCP remote server
+### Step 3: Create a connection for the _MCP remote server_
 
 ```sh
 export APP_ID="galaxium-mcp-remote-server"
@@ -29,7 +27,8 @@ orchestrate connections remove --app-id ${APP_ID}
 orchestrate connections add --app-id ${APP_ID}
 ```
 
-### Stet 4: Configure the watsonx Orchestrate connection
+### Stet 4: Configure the watsonx Orchestrate  _MCP remote server_ connection
+
 
 * MCP remote server
 
