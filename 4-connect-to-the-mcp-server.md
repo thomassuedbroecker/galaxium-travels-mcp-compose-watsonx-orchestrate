@@ -55,8 +55,6 @@ orchestrate connections set-credentials --app-id ${APP_ID} --environment ${ENVIR
 
 ### Step 6. Import the tools from the MCP server
 
-* MCP remote server
-
 ```sh
 cd watsonx-orchestrate-adk
 source ./.venv/bin/activate
