@@ -80,63 +80,53 @@ orchestrate server stop
 Add the following code to the services in the `docker-compose.yml`.
 
 ```sh
- wxo-doc-processing-cache-minio-init:
- image: ${OPENSOURCE_REGISTRY_PROXY:-docker.io}/minio/mc:latest
- platform: linux/amd64
- profiles:
- - docproc
- depends_on:
- wxo-server-minio:
- condition: service_healthy
- entrypoint: >
- /bin/sh -c "
- /usr/bin/mc alias set wxo-server-minio http://wxo-server-minio:9000 ${MINIO_ROOT_USER:-minioadmin} ${MINIO_ROOT_PASSWORD:-watsonxorchestrate};
- /usr/bin/mc mb wxo-server-minio/wxo-document-processing-cache;
- exit 0;
- "
+  langflow:
+    image: ${OPENSOURCE_REGISTRY_PROXY:-docker.io}/langflowai/${LANGFLOW_IMAGE:-langflow}:${LANGFLOW_TAG:-latest}
+    profiles: [langflow]
+    ports:
+      - 7861:7861
+    environment:
+      LANGFLOW_PORT: 7861
+      LANGFLOW_DATABASE_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-postgres}@wxo-server-db:5432/langflow
+      LANGFLOW_CONFIG_DIR: /app/app/langflow
+    volumes:
+      - langflow-data:/app/langflow
   
   ########################
   # Galaxium Travel Infrastructure 
   # ------- begin -------
   ########################
 
- hr_database:
- image: hr_database:1.0.0
- container_name: wx_hr_database
- ports:
- - 8081:8081
+  hr_database:
+    image: hr_database:1.0.0
+    container_name: wx_hr_database
+    ports:
+      - 8081:8081
 
- booking_system:
- image: booking_system_rest:1.0.0
- container_name: wx_booking_system_rest
- ports:
- - 8082:8082
+  booking_system:
+    image: booking_system_rest:1.0.0
+    container_name: wx_booking_system_rest
+    ports:
+      - 8082:8082
 
- web_app:
- image: web_app:1.0.0
- container_name: wx_web_app
- ports:
- - 8083:8083
- environment:
- - BACKEND_URL=http://booking_system:8082
+  web_app:
+    image: web_app:1.0.0
+    container_name: wx_web_app
+    ports:
+      - 8083:8083
+    environment:
+      - BACKEND_URL=http://booking_system:8082
 
- booking_system_mcp:
- image: booking_system_mcp:1.0.0
- container_name: wx_booking_system_mcp
- ports:
- - 8084:8084
+  booking_system_mcp:
+    image: booking_system_mcp:1.0.0
+    container_name: wx_booking_system_mcp
+    ports:
+      - 8084:8084
 
   ########################
   # Galaxium Travel Infrastructure 
   # ------- end -------
   ########################
-
-volumes:
- tools:
- driver: local
- wxo-server-redis-data:
- driver: local
- wxo-server-db:
 ```
 
 ### Step 7: Start the watsonx Orchestrate Development Edition Server again
