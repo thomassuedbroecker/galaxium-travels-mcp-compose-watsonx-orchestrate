@@ -1,6 +1,6 @@
 # Set up the example `Galaxium Travels Infrastructure`
 
->We will work with the `cloned repository` in the folder `example-application-infrastructure`.
+>We will work with the `cloned repository for the Galaxium Travels Infrastructure` in the folder `example-application-infrastructure`.
 
 ### Step 1: Open the first terminal session.
 
