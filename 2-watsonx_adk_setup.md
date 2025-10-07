@@ -24,7 +24,7 @@ python3 -m pip install ibm-watsonx-orchestrate
 orchestrate --version
 ```
 
-### Step 2: Generate the environment file for the ADK
+### Step 3: Generate the environment file for the ADK
 
 ```sh
 cd watsonx-orchestrate-adk
@@ -49,7 +49,7 @@ export WATSONX_SPACE_ID=<YOUR_SPACE_ID>
 #export WATSONX_URL=https://${WATSONX_REGION}.ml.cloud.ibm.com
 ```
 
-### Step 3: Start the watsonx Orchestrate Developer Edition
+### Step 4: Start the watsonx Orchestrate Developer Edition
 
 >Ensure the `Galaxium Container` are not running.
 
@@ -59,7 +59,7 @@ orchestrate server start --env-file .env
 orchestrate --version
 ```
 
-### Step 4: Generate an export of the Docker Compose configurations
+### Step 5: Generate an export of the Docker Compose configurations
 
 ```sh
 cd watsonx-orchestrate-adk
@@ -68,14 +68,14 @@ orchestrate server eject -e $(pwd)/.env
 
 This command generates a `docker-compose.yml` and a `server.env` file in the current folder.
 
-### Step 5: Stop the server
+### Step 6: Stop the server
 
 ```sh
 cd watsonx-orchestrate-adk
 orchestrate server stop
 ```
 
-### Step 6: Add the "Galaxium Travels Infrastructure" to the Docker Compose file
+### Step 7: Add the "Galaxium Travels Infrastructure" to the Docker Compose file
 
 Add the following code to the services in the `docker-compose.yml`.
 
@@ -129,7 +129,7 @@ Add the following code to the services in the `docker-compose.yml`.
   ########################
 ```
 
-### Step 7: Start the watsonx Orchestrate Development Edition Server again
+### Step 8: Start the watsonx Orchestrate Development Edition Server again
 
 We start the server with [Langfuse](https://github.com/langfuse/langfuse) for monitoring the local [LangGraph](https://github.com/langchain-ai/langgraph) agents.
 
