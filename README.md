@@ -59,10 +59,12 @@ tree .
 Ensure your container engine is running on your desktop.
 [Configuring container manager](https://developer.watson-orchestrate.ibm.com/developer_edition/wxOde_setup#configuring-container-manager)
 
-Additional information: Docker Desktop (tested only on Mac OS):
-- Kubernetes must be enabled, Settings -> Kubernetes -> Enable Kubernetes, leave the rest by default (kubeadm is sufficient)
-- Start Docker Desktop neurally
-- Enter the `.kube` directory from your home directory under Settings -> Resources -> File sharing (i.e. /Users/<username>/.kube)
+_Additional information:_
+
+* Docker Desktop (tested only on Mac OS):
+    - Kubernetes must be enabled, Settings -> Kubernetes -> Enable Kubernetes, leave the rest by default (kubeadm is sufficient)
+    - Start Docker Desktop neurally
+    - Enter the `.kube` directory from your home directory under `Settings -> Resources -> File sharing` (i.e. /Users/<username>/.kube)
 
 #### 2. [Set up the example `Galaxium Travels Infrastructure`](https://github.com/thomassuedbroecker/galaxium-travels-mcp-compose-watsonx-orchestrate/blob/main/1-galaxium_setup.md)
 
