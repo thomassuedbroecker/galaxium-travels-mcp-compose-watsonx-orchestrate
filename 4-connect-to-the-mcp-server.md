@@ -27,7 +27,7 @@ orchestrate connections remove --app-id ${APP_ID}
 orchestrate connections add --app-id ${APP_ID}
 ```
 
-### Stet 4: Configure the watsonx Orchestrate  _MCP remote server_ connection
+### Step 4: Configure the watsonx Orchestrate  _MCP remote server_ connection
 
 ```sh
 cd watsonx-orchestrate-adk
@@ -41,7 +41,7 @@ export MCP_REMOTE_SERVER_URL="http://booking_system_mcp:8084/mcp"
 orchestrate connections configure --app-id ${APP_ID} --env ${ENVIRONMENT} --kind ${KIND} --type ${TYPE} --url ${MCP_REMOTE_SERVER_URL}
 ```
 
-### Step 6: Set the authentication
+### Step 5: Set the authentication
 
 * MCP remote server _"basic auth"_
 
@@ -53,7 +53,7 @@ export SERVICE_PASSWORD="admin"
 orchestrate connections set-credentials --app-id ${APP_ID} --environment ${ENVIRONMENT} --username ${SERVICE_USERNAME} --password ${SERVICE_PASSWORD}
 ```
 
-### Step 7. Import the tools from the MCP server
+### Step 6. Import the tools from the MCP server
 
 * MCP remote server
 
@@ -82,7 +82,7 @@ Output:
 [INFO] - Successfully imported tool kit Galaxium-Travels-Booking-MCP-remote
 ```
 
-### 8. Start watsonx Orchestrate `lite chat`
+### Step 7: Start watsonx Orchestrate `lite chat`
 
 ```sh
 cd watsonx-orchestrate-adk
