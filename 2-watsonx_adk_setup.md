@@ -1,4 +1,4 @@
-# Set up the watsons Orchestrate ADK and watsonx Orchestrate Development Server
+# Set up the `watsons Orchestrate ADK` and `watsonx Orchestrate Development Server`
 
 You can follow the steps in the blog post [Getting Started with Local AI Agents in the watsonx Orchestrate Developer Edition](https://suedbroecker.net/2025/06/25/getting-started-with-local-ai-agents-in-the-watsonx-orchestrate-developer-edition/).
 
