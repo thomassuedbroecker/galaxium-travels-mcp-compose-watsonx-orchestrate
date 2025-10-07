@@ -27,7 +27,7 @@ cd ../local-container
 bash start-build-containers.sh
 ```
 
-### Step 6: Stop all applications with Docker compose
+### Step 5: Stop all applications with Docker compose
 
 Stop all applications; we only need to build and create the container images to verify that everything is working locally. 
 
