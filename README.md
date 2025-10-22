@@ -88,7 +88,7 @@ _Additional information:_
 
 #### 7. Additional resources
 
-* **The Galaxium Travels Example**   
+* **The Galaxium Travels Examples**   
     * [Galaxium Travels Infrastructure](https://github.com/thomassuedbroecker/galaxium-travels-infrastructure)
     * [Galaxium Travels Idea](https://github.com/Max-Jesch/galaxium-travels)
     * [Galaxium Travels Embedded Webchat Example](https://github.com/thomassuedbroecker/galaxium_travels_embedded_webchat_example)
