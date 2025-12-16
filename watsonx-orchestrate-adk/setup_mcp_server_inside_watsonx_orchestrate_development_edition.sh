@@ -46,4 +46,4 @@ export MCP_REMOTE_SERVER_URL="http://booking_system_mcp:8084/mcp"
 export TOOLS=list_flights
 
 orchestrate toolkits remove --name ${NAME}
-orchestrate toolkits import --kind ${KIND} --name ${NAME} --description ${DESCRIPTION} --transport ${TRANSPORT} --tools=${TOOLS} --url ${MCP_REMOTE_SERVER_URL}
+orchestrate toolkits add --kind ${KIND} --name ${NAME} --description ${DESCRIPTION} --transport ${TRANSPORT} --tools=${TOOLS} --url ${MCP_REMOTE_SERVER_URL} --tools=${TOOLS} --url ${MCP_REMOTE_SERVER_URL}

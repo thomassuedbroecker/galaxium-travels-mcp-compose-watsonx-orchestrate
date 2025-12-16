@@ -69,7 +69,6 @@ export TYPE="team"
 export KIND="mcp"
 export TRANSPORT="streamable_http"
 # Inside compose
-#export MCP_REMOTE_SERVER_URL="http://0.0.0.0:8084/mcp"
 export MCP_REMOTE_SERVER_URL="http://booking_system_mcp:8084/mcp"
 export TOOLS=list_flights
 
