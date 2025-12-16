@@ -55,6 +55,7 @@ tree .
 ├── 5-create-an-agent-and-test-the-mcp-tool.md
 ├── example-application-infrastructure
 │   └── README.md
+├── export_import
 ├── images
 │   ├── connect-to-mcp-locally-01.jpg
 │   ├── connect-to-mcp-locally-02.jpg
@@ -65,6 +66,9 @@ tree .
 ├── README.md
 └── watsonx-orchestrate-adk
     └── README.md
+    ├── setup_mcp_server_inside_watsonx_orchestrate_development_edition.sh
+    ├── start_custom_compose_orchestrate_watsonx_orchestrate_development_edition.sh
+    └── start_export_compose_orchestrate_watsonx_orchestrate_development_edition_sh
 ```
 
 #### 1. Start your container engine
