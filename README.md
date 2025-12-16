@@ -50,8 +50,10 @@ tree .
 .
 ├── 1-galaxium_setup.md
 ├── 2-watsonx_adk_setup.md
+├── 2-1-watsonx_adk_setup.md
 ├── 3-connect-to-the-mcp-server-with-mcp-inspector.md
 ├── 4-connect-to-the-mcp-server.md
+├── 4-1-connect-to-the-mcp-server.md
 ├── 5-create-an-agent-and-test-the-mcp-tool.md
 ├── example-application-infrastructure
 │   └── README.md
