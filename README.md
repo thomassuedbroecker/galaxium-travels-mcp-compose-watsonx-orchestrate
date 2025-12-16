@@ -2,6 +2,9 @@
 
 _Galaxium Travels local MCP Server, `watsonx Orchestrate Development Edition`, and `Docker-Compose`_
 
+>**Custom Docker-Compose** in watsonx Orchestrate it not official supported: https://developer.watson-orchestrate.ibm.com/developer_edition/custom_yaml
+>**Important Note**: _Before starting watsonx Orchestrate Developer Edition with a custom Docker Compose file, make sure you understand every change in your configuration. The ADK doesn’t offers official support to custom Compose setups, so you’re responsible for troubleshooting any issues that arise._
+
 This repository demonstrates how to set up a `MCP server` locally and integrate it into the `watsonx Orchestrate Development Edition` using `Docker-Compose`.
 
 * **MCP Server:** The image below shows simplified dependencies of the entire setup, including:
@@ -88,7 +91,7 @@ _Additional information:_
 
 #### 7. Additional resources
 
-* **The Galaxium Travels Example**   
+* **The Galaxium Travels Examples**   
     * [Galaxium Travels Infrastructure](https://github.com/thomassuedbroecker/galaxium-travels-infrastructure)
     * [Galaxium Travels Idea](https://github.com/Max-Jesch/galaxium-travels)
     * [Galaxium Travels Embedded Webchat Example](https://github.com/thomassuedbroecker/galaxium_travels_embedded_webchat_example)
