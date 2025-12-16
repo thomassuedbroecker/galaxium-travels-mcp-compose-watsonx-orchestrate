@@ -1,10 +1,13 @@
-# 2. Set up the `watsons Orchestrate ADK` and `watsonx Orchestrate Development Server` (wxo 1.x versions)
+# 2.1 Set up the `watsons Orchestrate ADK` and `watsonx Orchestrate Development Server` (wxo 2.0 and 2.1 versions)
 
->For watsonx Orchestrate ADK 2.0 - 2.1 versions please visit this [documentation](/2-1-watsonx_adk_setup.md).
+>For watsonx Orchestrate ADK 1.x versions please visit this [documentation](/2-watsonx_adk_setup.md).
 
-You can follow the steps in the blog post [Getting Started with Local AI Agents in the watsonx Orchestrate Developer Edition](https://suedbroecker.net/2025/06/25/getting-started-with-local-ai-agents-in-the-watsonx-orchestrate-developer-edition/).
+>The image below shows the relevant changes made to run the `Galaxium Travels mcp server` also as a container inside the docker-compose of watsonx Orchestrate Development Edition.
 
-The following steps outline the extraction of information from the blog post and the [watsonx Orchestrate ADK documentation](https://developer.watson-orchestrate.ibm.com/).
+- Compose network setting
+- Attach watsonx Orchestrate Development Edition to container engine, because to load the container from the local container engine. [IBM watsonx Orchestrate Documentation](https://developer.watson-orchestrate.ibm.com/developer_edition/manage_local_server#attaching-watsonx-orchestrate-developer-edition-to-a-docker-engine)
+
+![](/images/watsonx-orchestrate-2.0-2.1-update.png)
 
 ### Step 1: Set up the virtual Python environment
 
@@ -97,40 +100,28 @@ volumes:
   # Galaxium Travel Infrastructure 
   # ------- begin -------
   ########################
-
-  hr_database:
-    image: hr_database:1.0.0
-    container_name: wx_hr_database
-    ports:
-      - 8081:8081
-
-  booking_system:
-    image: booking_system_rest:1.0.0
-    container_name: wx_booking_system_rest
-    ports:
-      - 8082:8082
-
-  web_app:
-    image: web_app:1.0.0
-    container_name: wx_web_app
-    ports:
-      - 8083:8083
-    environment:
-      - BACKEND_URL=http://booking_system:8082
-
   booking_system_mcp:
     image: booking_system_mcp:1.0.0
     container_name: wx_booking_system_mcp
     ports:
       - 8084:8084
-
+    networks:
+      - default
   ########################
   # Galaxium Travel Infrastructure 
   # ------- end -------
   ########################
 ```
 
-### Step 8: Start the watsonx Orchestrate Development Edition Server again
+### Step 8: Attaching [watsonx Orchestrate Developer Edition](https://developer.watson-orchestrate.ibm.com/developer_edition/manage_local_server#attaching-watsonx-orchestrate-developer-edition-to-a-docker-engine) to a Docker engine
+
+Attaching watsonx Orchestrate Developer Edition to a Docker engine.
+
+```sh
+orchestrate server attach-docker
+```
+
+### Step 9: Start the watsonx Orchestrate Development Edition Server again
 
 We start the server with [Langfuse](https://github.com/langfuse/langfuse) for monitoring the local [LangGraph](https://github.com/langchain-ai/langgraph) agents.
 

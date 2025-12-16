@@ -1,4 +1,4 @@
-# Set up the example `Galaxium Travels Infrastructure`
+# 1. Set up the example `Galaxium Travels Infrastructure`
 
 >We will work with the `cloned repository for the Galaxium Travels Infrastructure` in the folder `example-application-infrastructure`.
 

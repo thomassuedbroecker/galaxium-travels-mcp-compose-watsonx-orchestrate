@@ -1,4 +1,4 @@
-# Connect to the MCP server with MCP inspector
+# 3. Connect to the MCP server with MCP inspector
 
 ### Step 1: Install and start the [MCP Inspector](https://github.com/modelcontextprotocol/inspector)
 

@@ -1,6 +1,6 @@
-# 4. Connect to the MCP Server (wxo 1.x versions)
+# 4.1 Connect to the MCP Server (wxo 2.0 and 2.1 versions)
 
->For watsonx Orchestrate ADK 2.0 - 2.1 versions please visit this [documentation](/4-1-connect-to-the-mcp-server.md).
+>For watsonx Orchestrate ADK 1.x versions please visit this [documentation](/4-connect-to-the-mcp-server.md).
 
 ### Step 1: Activate the local environment
 
@@ -39,6 +39,7 @@ export TYPE="team"
 export KIND="basic"
 export APP_ID="galaxium-mcp-remote-server"
 
+#export MCP_REMOTE_SERVER_URL="http://0.0.0.0:8084/mcp"
 export MCP_REMOTE_SERVER_URL="http://booking_system_mcp:8084/mcp"
 orchestrate connections configure --app-id ${APP_ID} --env ${ENVIRONMENT} --kind ${KIND} --type ${TYPE} --url ${MCP_REMOTE_SERVER_URL}
 ```
@@ -68,11 +69,12 @@ export TYPE="team"
 export KIND="mcp"
 export TRANSPORT="streamable_http"
 # Inside compose
+#export MCP_REMOTE_SERVER_URL="http://0.0.0.0:8084/mcp"
 export MCP_REMOTE_SERVER_URL="http://booking_system_mcp:8084/mcp"
 export TOOLS=list_flights
 
 orchestrate toolkits remove --name ${NAME}
-orchestrate toolkits import --kind ${KIND} --name ${NAME} --description ${DESCRIPTION} --transport ${TRANSPORT} --tools=${TOOLS} --url ${MCP_REMOTE_SERVER_URL}
+orchestrate toolkits add --kind ${KIND} --name ${NAME} --description ${DESCRIPTION} --transport ${TRANSPORT} --tools=${TOOLS} --url ${MCP_REMOTE_SERVER_URL}
 ```
 
 Output:
