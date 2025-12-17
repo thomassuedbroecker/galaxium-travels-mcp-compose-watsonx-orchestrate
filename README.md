@@ -131,7 +131,7 @@ _Additional information:_
     - Start Docker Desktop neurally
     - Enter the `.kube` directory from your home directory under `Settings -> Resources -> File sharing` (i.e. /Users/<username>/.kube)
 
-#### 2. [Set up the example `Galaxium Travels Infrastructure`](https://github.com/thomassuedbroecker/galaxium-travels-mcp-compose-watsonx-orchestrate/blob/main/end-to-end-agent-use-case-implementation-with-galaxium-travels-full-local-setup-guide-and-mcp/1-galaxium_setup.md)
+#### 2. [Set up the example `Galaxium Travels Infrastructure`](https://github.com/thomassuedbroecker/galaxium-travels-mcp-compose-watsonx-orchestrate/blob/main/1-galaxium_setup.md)
 
 #### 3. [Set up the watsonx Orchestrate ADK and watsonx Orchestrate Development Server](https://github.com/thomassuedbroecker/galaxium-travels-mcp-compose-watsonx-orchestrate/blob/main/end-to-end-agent-use-case-implementation-with-galaxium-travels-full-local-setup-guide-and-mcp/2-watsonx_adk_setup.md)
 
