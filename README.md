@@ -139,7 +139,7 @@ _Additional information:_
 
 #### 4. [Connect to the MCP server with MCP inspector](https://github.com/thomassuedbroecker/galaxium-travels-mcp-compose-watsonx-orchestrate/blob/main/end-to-end-agent-use-case-implementation-with-galaxium-travels-full-local-setup-guide-and-mcp/3-connect-to-the-mcp-server-with-mcp-inspector.md)
 
-#### 5. [(Version 2.0 -2.1) Connect to MCP Gateway and MCP server](/4-connect-to-the-mcp-server.md) 
+#### 5. [(Version 2.0 -2.1) Connect to MCP Gateway and MCP server](https://github.com/thomassuedbroecker/galaxium-travels-mcp-compose-watsonx-orchestrate/blob/main/3-connect-to-the-mcp-server-with-mcp-inspector.md) 
 
 #### 5.1 [Connect to MCP Gateway and MCP server](https://github.com/thomassuedbroecker/galaxium-travels-mcp-compose-watsonx-orchestrate/blob/main/end-to-end-agent-use-case-implementation-with-galaxium-travels-full-local-setup-guide-and-mcp/4-1-connect-to-the-mcp-server.md) 
 
