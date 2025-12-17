@@ -49,3 +49,5 @@ Question: `Can you show me the available flights?`
 * Password: `orchestrate`
 
 ![](images/create-agent-test-tool-08.gif)
+
+### [Home](https://github.com/thomassuedbroecker/galaxium-travels-mcp-compose-watsonx-orchestrate?tab=readme-ov-file)

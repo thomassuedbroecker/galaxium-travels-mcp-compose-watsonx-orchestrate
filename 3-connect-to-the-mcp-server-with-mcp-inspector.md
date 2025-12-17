@@ -36,4 +36,4 @@ orchestrate chat start
 orchestrate server logs
 ```
 
-### [Home](https://github.com/IBM/oic-i-agentic-ai-tutorials/blob/main/end-to-end-agent-use-case-implementation-with-galaxium-travels-full-local-setup-guide-and-mcp/README.md)
+### [Home](https://github.com/thomassuedbroecker/galaxium-travels-mcp-compose-watsonx-orchestrate?tab=readme-ov-file)
