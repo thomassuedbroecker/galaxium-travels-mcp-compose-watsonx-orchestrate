@@ -3,10 +3,10 @@ echo "# 1. Start virtual environment"
 echo "#######################"
 source .venv/bin/activate
 
-echo "#######################"
-echo "# 2. Attach-docker to watsonx Orchestrate development server"
-echo "#######################"
-orchestrate server attach-docker
+#echo "#######################"
+#echo "# 2. Attach-docker to watsonx Orchestrate development server"
+#echo "#######################"
+#orchestrate server attach-docker
 
 echo "#######################"
 echo "# 3. Start development server in with docker-compose configuration with langfuse"

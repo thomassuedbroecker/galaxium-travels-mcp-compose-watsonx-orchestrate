@@ -113,15 +113,7 @@ volumes:
   ########################
 ```
 
-### Step 8: Attaching [watsonx Orchestrate Developer Edition](https://developer.watson-orchestrate.ibm.com/developer_edition/manage_local_server#attaching-watsonx-orchestrate-developer-edition-to-a-docker-engine) to a Docker engine
-
-Attaching watsonx Orchestrate Developer Edition to a Docker engine.
-
-```sh
-orchestrate server attach-docker
-```
-
-### Step 9: Start the watsonx Orchestrate Development Edition Server again
+### Step 8: Start the watsonx Orchestrate Development Edition Server again
 
 We start the server with [Langfuse](https://github.com/langfuse/langfuse) for monitoring the local [LangGraph](https://github.com/langchain-ai/langgraph) agents.
 
