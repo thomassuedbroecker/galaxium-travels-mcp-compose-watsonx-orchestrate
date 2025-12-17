@@ -41,7 +41,13 @@ This repository demonstrates how to set up a `MCP server` locally and integrate 
     * Langfuse
     * MCP server
 
+* watsonx Orchestrate ADK 1.x
+
 ![](images/mcp-server-overview-01.png)
+
+* watsonx Orchestrate ADK 2.0 - 2.1
+
+![](images/mcp-server-overview-02.png)
 
 ## 5. The example application
 
