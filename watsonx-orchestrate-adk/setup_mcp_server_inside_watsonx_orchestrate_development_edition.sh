@@ -11,11 +11,11 @@ echo "#######################"
 echo "# 2. Configure the watsonx Orchestrate  _MCP remote server_ connection"
 echo "#######################"
 
+source ./.venv/bin/activate
 export ENVIRONMENT="draft"
 export TYPE="team"
 export KIND="basic"
 export APP_ID="galaxium-mcp-remote-server"
-
 export MCP_REMOTE_SERVER_URL="http://booking_system_mcp:8084/mcp"
 orchestrate connections configure --app-id ${APP_ID} --env ${ENVIRONMENT} --kind ${KIND} --type ${TYPE} --url ${MCP_REMOTE_SERVER_URL}
 
@@ -44,6 +44,16 @@ export TRANSPORT="streamable_http"
 # Inside compose
 export MCP_REMOTE_SERVER_URL="http://booking_system_mcp:8084/mcp"
 export TOOLS=list_flights
-
+source ./.venv/bin/activate
 orchestrate toolkits remove --name ${NAME}
-orchestrate toolkits add --kind ${KIND} --name ${NAME} --description ${DESCRIPTION} --transport ${TRANSPORT} --tools=${TOOLS} --url ${MCP_REMOTE_SERVER_URL} --tools=${TOOLS} --url ${MCP_REMOTE_SERVER_URL}
+orchestrate toolkits list
+orchestrate toolkits add --kind ${KIND} --name ${NAME} --description "${DESCRIPTION}" --transport ${TRANSPORT} --tools=${TOOLS} --url ${MCP_REMOTE_SERVER_URL}
+
+echo "#######################"
+echo "# 7. Open watsonx Orchestrate Lite Chat"
+echo "# htto://localhost:3000" 
+echo "# - Visit Manage Agents"
+echo "# - Ensure the 'AllFlights Tool' is available"
+echo "# - Add 'AllFlights Tool' to an agent"
+echo "# - Ask the question: Which flights are available?"
+echo "#######################"

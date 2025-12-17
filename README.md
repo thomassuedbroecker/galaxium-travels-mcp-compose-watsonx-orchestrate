@@ -2,11 +2,18 @@
 
 _Galaxium Travels local MCP Server, `watsonx Orchestrate Development Edition`, and `Docker-Compose`_
 
->**Custom Docker-Compose** in watsonx Orchestrate it not official supported: https://developer.watson-orchestrate.ibm.com/developer_edition/custom_yaml
+>**Custom Docker-Compose** in watsonx Orchestrate is NOT official supported: https://developer.watson-orchestrate.ibm.com/developer_edition/custom_yaml
+
+---
 
 >**Important Note**: _Before starting watsonx Orchestrate Developer Edition with a custom Docker Compose file, make sure you understand every change in your configuration. The ADK doesn’t offers official support to custom Compose setups, so you’re responsible for troubleshooting any issues that arise._
 
 >Related blog post on **IBM Developer** _[**Set up an end-to-end use case for local AI agents with MCP server and watsonx Orchestrate**](https://developer.ibm.com/tutorials/local-ai-agent-workflow-mcp-watsonx-orchestrate/)_
+
+
+* **Related YouTube video**: `Galaxium + MCP + watsonx Orchestrate: Full Local Setup Guide (until watsonx Orchestrate version 1.x)`
+
+[![Related YouTube video](/images/youtube-01.png)](https://www.youtube.com/watch?v=LRIAkzVrIvc?si=G3rUkmkwmvBD_yuV)
 
 This repository demonstrates how to set up a `MCP server` locally and integrate it into the `watsonx Orchestrate Development Edition` using `Docker-Compose`.
 

@@ -29,12 +29,13 @@ echo "#######################"
 orchestrate --version
 
 echo "#######################"
-echo "# 6. Now insert the Galaxium Travels container configuration to the watsonx Orchestrate compose file."
-echo "# !!!REMINDER: THIS IS NOT OFFICAL SUPPORTED!!!" 
-echo "# ... but is currently works."
-echo "# Ensure is use the right version in the repository"
+echo "# 6. Now insert the Galaxium Travels container configuration into the watsonx Orchestrate Compose file."
+echo "# !!! REMINDER: THIS IS NOT OFFICIALLY SUPPORTED !!!"
+echo "# ... but it currently works."
+echo "# Ensure you use the correct version in the repository"
 echo "# documentation related to your watsonx Orchestrate version!"
-echo "# version 1.x or verion 2.0 - 2.1"
+echo "# Version 1.x or version 2.0–2.1"
 echo "#######################"
+
 
 
