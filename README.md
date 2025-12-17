@@ -1,23 +1,34 @@
-# End to End Agent Use Case Implementation with Galaxium Travels: Full Local Setup Guide and MCP 
+# End-to-End Agent Use Case Implementation with Galaxium Travels: Full Local Setup Guide and MCP 
 
 _Galaxium Travels local MCP Server, `watsonx Orchestrate Development Edition`, and `Docker-Compose`_
 
-## Blog post on IBM Developer
+Table of Content
+
+1. Blog post on IBM Developer
+2. Disclamer
+3. Related YouTube video
+4. Repository content overview
+5. The example application
+6. Run the example
+
+## 1. Blog post on IBM Developer
 >!!! **IBM Developer** _[**Set up an end-to-end use case for local AI agents with MCP server and watsonx Orchestrate**](https://developer.ibm.com/tutorials/local-ai-agent-workflow-mcp-watsonx-orchestrate/)_ !!!
 
-## Disclamer
+## 2. Disclamer
 >**Custom Docker-Compose** in watsonx Orchestrate is NOT official supported: https://developer.watson-orchestrate.ibm.com/developer_edition/custom_yaml
 
 ---
 
 >**Important Note**: _Before starting watsonx Orchestrate Developer Edition with a custom Docker Compose file, make sure you understand every change in your configuration. The ADK doesn’t offers official support to custom Compose setups, so you’re responsible for troubleshooting any issues that arise._
 
-## Related YouTube video
+## 3. Related YouTube video
 `Galaxium + MCP + watsonx Orchestrate: Full Local Setup Guide (until watsonx Orchestrate version 1.x)`
 
 [![Related YouTube video](/images/youtube-01.png)](https://www.youtube.com/watch?v=LRIAkzVrIvc?si=G3rUkmkwmvBD_yuV)
 
-## Content overview
+## 4. Repository content overview
+
+### 4.1 Basic Architecture
 
 This repository demonstrates how to set up a `MCP server` locally and integrate it into the `watsonx Orchestrate Development Edition` using `Docker-Compose`.
 
@@ -31,6 +42,8 @@ This repository demonstrates how to set up a `MCP server` locally and integrate 
     * MCP server
 
 ![](images/mcp-server-overview-01.png)
+
+## 5. The example application
 
 This repository contains resources for the "galaxium_travels_mcp-compose-watsonx-orchestrate" project, utilizing the `watsonx Orchestrate Development Edition`.
 
@@ -47,6 +60,19 @@ This repository contains resources for the "galaxium_travels_mcp-compose-watsonx
 * Related resources:
 
     * [YouTube video: Galaxium + MCP + watsonx Orchestrate: Full Local Setup Guide](https://www.youtube.com/watch?v=LRIAkzVrIvc) to the following steps.
+
+## 6. Run the example
+
+Be aware that there are two versions to run the example with watsonx Orchestrate Development Edition in ADK: Version 1.x and 2.0/2.1. 
+
+follow the steps
+
+* Version 1.x :
+    3 Set up the watsonx Orchestrate ADK and watsonx Orchestrate Development Server
+    5 Connect to MCP Gateway and MCP server
+* Version 2.0-2.1 :
+    3.1 Set up the watsonx Orchestrate ADK and watsonx Orchestrate Development Server
+    5.1 Connect to MCP Gateway and MCP server
 
 #### 0. Clone this repository to your local machine
 
