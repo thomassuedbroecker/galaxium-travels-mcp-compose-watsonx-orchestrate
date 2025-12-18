@@ -21,10 +21,13 @@ Table of Content
 
 >**Important Note**: _Before starting watsonx Orchestrate Developer Edition with a custom Docker Compose file, make sure you understand every change in your configuration. The ADK doesn’t offers official support to custom Compose setups, so you’re responsible for troubleshooting any issues that arise._
 
-## 3. Related YouTube video
-`Galaxium + MCP + watsonx Orchestrate: Full Local Setup Guide (until watsonx Orchestrate version 1.x)`
+## 3. Related YouTube videos
+1. `Galaxium + MCP + watsonx Orchestrate: Full Local Setup Guide (until watsonx Orchestrate version 1.x)`
 
 [![Related YouTube video](/images/youtube-01.png)](https://www.youtube.com/watch?v=LRIAkzVrIvc?si=G3rUkmkwmvBD_yuV)
+
+2. `How to Fix the MCP + watsonx Orchestrate Tutorial After ADK 2.x Changes`
+[![Related YouTube video](/images/youtube-02.png)](https://www.youtube.com/watch?v=hdTLPmDbC66Y?si=a_CGBqr0jj9iZd_i)
 
 ## 4. Repository content overview
 
