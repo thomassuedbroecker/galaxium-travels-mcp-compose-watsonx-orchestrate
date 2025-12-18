@@ -142,9 +142,9 @@ _Additional information:_
 
 #### 4. [Connect to the MCP server with MCP inspector](https://github.com/thomassuedbroecker/galaxium-travels-mcp-compose-watsonx-orchestrate/blob/main/3-connect-to-the-mcp-server-with-mcp-inspector.md)
 
-#### 5. Connect to MCP Gateway and MCP server](https://github.com/thomassuedbroecker/galaxium-travels-mcp-compose-watsonx-orchestrate/blob/main/3-connect-to-the-mcp-server-with-mcp-inspector.md) 
+#### 5. [Connect to MCP Gateway and MCP server](https://github.com/thomassuedbroecker/galaxium-travels-mcp-compose-watsonx-orchestrate/blob/main/3-connect-to-the-mcp-server-with-mcp-inspector.md) 
 
-#### 5.1 [(Version 2.0 -2.1) [Connect to MCP Gateway and MCP server](https://github.com/thomassuedbroecker/galaxium-travels-mcp-compose-watsonx-orchestrate/blob/main/4-connect-to-the-mcp-server.md) 
+#### 5.1 [(Version 2.0 -2.1) Connect to MCP Gateway and MCP server](https://github.com/thomassuedbroecker/galaxium-travels-mcp-compose-watsonx-orchestrate/blob/main/4-connect-to-the-mcp-server.md) 
 
 #### 6. [Create a new Agent and test the MCP Tool](https://github.com/thomassuedbroecker/galaxium-travels-mcp-compose-watsonx-orchestrate/blob/main/5-create-an-agent-and-test-the-mcp-tool.md) 
 
